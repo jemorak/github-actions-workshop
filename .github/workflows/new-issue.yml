@@ -12,4 +12,5 @@ jobs:
         run: |
           echo "New issue has been opened!"
           echo "The issue was titled: ${{ github.event.issue.title }}"
+          echo "The issue was titled: ${{ github.event.issue.author }}"
 
